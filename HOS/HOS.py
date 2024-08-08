@@ -27,7 +27,7 @@ DEPS_DATA = {
         "events": {
         "category_id": 1270840489637318829,
         "pretty_name": "Events Team",
-        "reminders": "If you need a code, please provide a message link or screenshot of the use keypad command",
+        "reminders": "If you need a code, please provide a message link or screenshot of the use keypad command.",
         "role_id": 1258207036358004826,
         "send_message_to_user": True
     },
