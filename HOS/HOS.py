@@ -7,7 +7,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt` - Partnership Team\n`admin` - Administration Team\n"
+options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt` - Partnership Team\n`events` - Events Team\n`admin` - Administration Team\n"
 
 DEPS_DATA = {
     "mod": {
@@ -22,6 +22,13 @@ DEPS_DATA = {
         "pretty_name": "Partnership Team",
         "reminders": "If you are partnering with our server, please make sure your ad is **at least** 150-200 characters. We recommend that your ad be longer and goes into good detail about what your server offers.",
         "role_id": 1254463282845188207,
+        "send_message_to_user": True
+    },
+        "events": {
+        "category_id": 1270840489637318829,
+        "pretty_name": "Events Team",
+        "reminders": "If you need a code, please provide a message link or screenshot of the use keypad command",
+        "role_id": 1258207036358004826,
         "send_message_to_user": True
     },
     "admin": {
