@@ -7,7 +7,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt` - Partnership Team\n`events` - Events Team\n`admin` - Administration Team\n"
+options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt` - Partnership Team\n`events` - Events Team\n`ayden` - Ayden Support Team\n`admin` - Administration Team\n"
 
 DEPS_DATA = {
     "mod": {
@@ -24,10 +24,17 @@ DEPS_DATA = {
         "role_id": 1254463282845188207,
         "send_message_to_user": True
     },
-        "events": {
+    "events": {
         "category_id": 1270840489637318829,
         "pretty_name": "Events Team",
-        "reminders": "If you need a code, please provide a message link or screenshot of the use keypad command.",
+        "reminders": "None",
+        "role_id": 1258207036358004826,
+        "send_message_to_user": True
+    },
+    "ayden": {
+        "category_id": 1270840489637318829,
+        "pretty_name": "Ayden Support Team",
+        "reminders": "Please provide **detail** about the issue you are experiencing. \n -You can also check our [Documentation Page](https://bit.ly/ayden-documenation) to see if your inquiry is answered. \n If you are here claiming a badge, please provide what badge you are claiming, as well as sufficient proof of such. \n If you're appealing a blacklist, please [read this page](https://hang-out-space.gitbook.io/ayden-docs/ayden-information/ayden-blacklisting#appealing-a-blacklist).",
         "role_id": 1258207036358004826,
         "send_message_to_user": True
     },
