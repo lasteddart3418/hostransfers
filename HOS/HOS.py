@@ -34,7 +34,7 @@ DEPS_DATA = {
     "ayden": {
         "category_id": 1270840489637318829,
         "pretty_name": "Ayden Support Team",
-        "reminders": "Please provide **detail** about the issue you are experiencing. \n -You can also check our [Documentation Page](https://bit.ly/ayden-documenation) to see if your inquiry is answered. \n If you are here claiming a badge, please provide what badge you are claiming, as well as sufficient proof of such. \n If you're appealing a blacklist, please [read this page](https://hang-out-space.gitbook.io/ayden-docs/ayden-information/ayden-blacklisting#appealing-a-blacklist).",
+        "reminders": "1. Please provide **detail** about the issue you are experiencing. \n 2. You can also check our [Documentation Page](https://bit.ly/ayden-documenation) to see if your inquiry is answered. \n 3. If you are here claiming a badge, please provide what badge you are claiming, as well as sufficient proof of such. \n 4. If you're appealing a blacklist, please [read this page](https://hang-out-space.gitbook.io/ayden-docs/ayden-information/ayden-blacklisting#appealing-a-blacklist).",
         "role_id": 1258207036358004826,
         "send_message_to_user": True
     },
