@@ -32,10 +32,10 @@ DEPS_DATA = {
         "send_message_to_user": True
     },
     "ayden": {
-        "category_id": 1270840489637318829,
+        "category_id": 1311137129140846602,
         "pretty_name": "Ayden Support Team",
         "reminders": "1. Please provide **detail** about the issue you are experiencing. \n 2. You can also check our [Documentation Page](https://bit.ly/ayden-documenation) to see if your inquiry is answered. \n 3. If you are here claiming a badge, please provide what badge you are claiming, as well as sufficient proof of such. \n 4. If you're appealing a blacklist, please [read this page](https://hang-out-space.gitbook.io/ayden-docs/ayden-information/ayden-blacklisting#appealing-a-blacklist).",
-        "role_id": 1258207036358004826,
+        "role_id": 1312211481466638357,
         "send_message_to_user": True
     },
     "admin": {
